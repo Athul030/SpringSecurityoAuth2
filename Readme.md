@@ -29,7 +29,7 @@ spring.security.oauth2.client.registration.github.client-id= ${githubClientId}
 spring.security.oauth2.client.registration.github.client-secret= ${githubSecret}
 
 Google Login:
-spring.security.oauth2.client.registration.google.client-id= ${googleClientId}
+spring.security.oauth2.client.registration.google.client-id= ${googleClientId} 
 spring.security.oauth2.client.registration.google.client-secret= ${googleSecret}
 
 ### Step 4: Configure Spring Security

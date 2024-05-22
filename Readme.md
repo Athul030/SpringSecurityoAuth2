@@ -26,10 +26,12 @@ Add the 'spring-boot-starter-oauth2-client' dependencies to your pom.xml or buil
 ### Step 3: Configure OAuth2 properties in application.properties or application.yml.
 Github Login:
 spring.security.oauth2.client.registration.github.client-id= ${githubClientId}
+
 spring.security.oauth2.client.registration.github.client-secret= ${githubSecret}
 
 Google Login:
-spring.security.oauth2.client.registration.google.client-id= ${googleClientId} 
+spring.security.oauth2.client.registration.google.client-id= ${googleClientId}
+
 spring.security.oauth2.client.registration.google.client-secret= ${googleSecret}
 
 ### Step 4: Configure Spring Security

@@ -1,4 +1,4 @@
-#***OAuth2 Authentication with Spring Security***
+# ***OAuth2 Authentication with Spring Security***
 
 This guide will walk you through setting up OAuth2 authentication with Google using Spring Security in your Java application. OAuth2 is an industry-standard protocol for authorization, providing a secure and standardized way to access user data.
 
